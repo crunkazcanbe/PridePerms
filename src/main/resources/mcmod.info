@@ -1,0 +1,8 @@
+[{
+  "modid": "prideperms",
+  "name": "PridePerms",
+  "description": "Ranks and permissions for every mod: groups, players, wildcards, /perms, and Forge's permission system.",
+  "version": "0.1.0",
+  "mcversion": "1.12.2",
+  "authorList": ["Pride"]
+}]

@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.dogpound.prideperms.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBridgeModCheck",
+    "MixinBridgeSnapshot",
+    "MixinBridgeSendPacket",
+    "MixinBridgeSection",
+    "MixinBridgeTracker"
+  ]
+}
