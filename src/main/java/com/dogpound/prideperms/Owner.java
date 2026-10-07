@@ -9,8 +9,7 @@ import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 import java.util.Arrays;
 
 /**
- * The server owner (her ask 2026-10-01: "put me in there where the absolute most permissions possible and make me a
- * op"). Accounts listed by UUID in config ownerUuids get the top "owner" group (every node, above admin), op level 4
+ * The server owner (requested feature). Accounts listed by UUID in config ownerUuids get the top "owner" group (every node, above admin), op level 4
  * on dedicated servers, and are never held by the join gate. UUID, not name, so a renamed account can't claim it.
  */
 public final class Owner {

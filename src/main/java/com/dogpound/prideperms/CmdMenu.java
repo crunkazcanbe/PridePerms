@@ -20,8 +20,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * The command button menu (her ask 2026-09-28: "all the commands as a button… a menu that pops up with every command
- * and you can just press a button"). The server sends only the commands THIS player may use (Forge + PridePerms
+ * The command button menu (requested feature). The server sends only the commands THIS player may use (Forge + PridePerms
  * decide via checkPermission), each tagged with the mod it came from; the client draws the buttons and forms.
  */
 public final class CmdMenu {

@@ -9,7 +9,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.fml.common.network.handshake.NetworkDispatcher;
 
 /**
- * Pride Bridge (her ask 2026-10-02): Pride Lite and Pride Heavy players on the SAME server.
+ * Pride Bridge (requested feature): Pride Lite and Pride Heavy players on the SAME server.
  * A Lite client is any client with PridePerms that lacks some of the server's mods. The server lets it in, the client
  * skips registry entries it doesn't have, and everything from a missing mod is shown to that player as a vanilla
  * look-alike (see Translate).

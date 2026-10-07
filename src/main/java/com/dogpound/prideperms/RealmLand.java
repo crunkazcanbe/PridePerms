@@ -9,8 +9,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * "What kind of land is this player standing on?" for land-context rules (her ask: embed with the Pride Realms
- * mod). Asks Pride Realms by reflection so PridePerms runs without it: own (co-owner), trusted (builder+),
+ * "What kind of land is this player standing on?" for land-context rules (requested feature). Asks Pride Realms by reflection so PridePerms runs without it: own (co-owner), trusted (builder+),
  * others (someone else's parcel), wild (no parcel). null when Pride Realms isn't installed.
  * ponytail: the player's own block, not the block they click (they're within reach of it); cached until they move.
  */

@@ -112,6 +112,7 @@ A centred Pride-style panel for ops and admins with these pages: Dashboard, Grou
 - **Checker**: test any player and node, and turn on live verbose output for everyone or one player.
 - **Change log**, **Backups** (backup now, restore, reload from file, import from LuckPerms or PermissionsEx) and **Settings** (every config value, editable live).
 - `/perms menu groups vip` or `/perms menu players Steve` opens straight on one group or player.
+- Follows the pack-wide menu theme chosen in PrideCanvas (Themes) when PrideCanvas is installed; otherwise the default Pride colours are used.
 
 ### Command button menu (`/cmds`, key J)
 Every command the player is allowed to use, grouped by the mod it came from, as buttons. Commands without arguments run on one click. Commands with arguments open a form built from the usage text: `<needed>` and `[optional]` become text boxes, `<a|b|c>` becomes a button that cycles the choices, player arguments get a button that cycles online players, and usages with several forms (`x | y | z`) offer each form. Right-click toggles a favourite. Favourites and recent commands are saved in `config/prideperms-cmdmenu.txt` on the client.
@@ -311,14 +312,13 @@ The jar is written to `build/libs/`. The project targets Java 8 (ForgeGradle 3, 
 
 MIT License. © 2026 crunkazcanbe.
 
-## Credits
-
-Made by crunkazcanbe, with Claude.
-
-
 ## Compile-only jars
 
 The build compiles against these jars in `libs/` (other authors' mods / APIs). They are not included in this repo — get them from their official pages and drop them in `libs/` before building:
 
 - `mixinbooter-api.jar`
 - `sponge-mixin.jar`
+
+## Credits
+
+Made with [Claude Code](https://claude.com/claude-code) and [Blockbench](https://www.blockbench.net).
